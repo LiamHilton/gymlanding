@@ -1,0 +1,54 @@
+.what-sets-us-apart {
+    padding: 4rem 2rem;
+    text-align: center;
+    background-color: var(--background-color2);
+  }
+  
+  .carousel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    position: relative;
+  }
+  
+  .carousel-container {
+    display: flex;
+    gap: 1.5rem;
+  }
+  
+  .dots {
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+    margin-top: 2rem;
+  }
+  
+  .dot {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: var(--accent-color);
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .dot.active {
+    background-color: var(--primary-color);
+  }
+  
+  
+  /* Mobile responsiveness */
+  @media (max-width: 768px) {
+    .carousel-container {
+     /* display: grid;
+     grid-template-columns: 1fr; */
+      gap: 1rem;
+    }
+  }
+  @media (max-width: 450px) {
+    .carousel-container {
+     display: grid;
+     grid-template-columns: 1fr;
+    }
+  }

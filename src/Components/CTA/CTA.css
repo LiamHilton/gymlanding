@@ -1,0 +1,31 @@
+.cta {
+    border: 2px solid var(--box-shadow-dark);
+    text-align: center;
+    padding: 4rem 2rem;
+    background-color: #0a0a0a;
+    color:var(--secondary-color);
+    box-shadow: var(--box-shadow-dark);
+  }
+  
+  h2 {
+    border: 2px solid black;
+    font-size: 1.8rem;
+    margin-bottom: 1.5rem;
+    color: var(--secondary-color);
+   
+  }
+  
+  .logo-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap; /* Ensures responsiveness */
+    gap: 1.5rem;
+    padding: 1rem;
+  }
+  
+  .brand-icon {
+    font-size: 3rem;
+    color: var(--accent-color) /* Change color if needed */
+  }
+  
