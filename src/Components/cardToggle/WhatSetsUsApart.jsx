@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
-import Card from './Card/Card'; // Import the Card component
+import Card from '../Card/Card'; // Import the Card component
 import { FaDumbbell, FaHeartbeat, FaApple, FaUtensils, FaCog, FaRunning } from "react-icons/fa"; // Replace with your icons
-import SectionTitle from "./SectionTitle/SectionTitle" // Your reusable section title component
+import SectionTitle from "../SectionTitle/SectionTitle" // Your reusable section title component
 import "./WhatSetsUsApart.css";
 
 const WhatSetsUsApart = () => {
