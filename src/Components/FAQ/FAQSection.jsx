@@ -1,4 +1,6 @@
 import React, { useState } from "react";
+import { motion } from 'framer-motion';
+
 import './FAQ.css';
 import SectionTitle from '../SectionTitle/SectionTitle';
 
@@ -29,12 +31,26 @@ const FAQSection = () => {
       <div className="faq-grid">
         {faqs.map((faq, index) => (
           <div key={index} className="faq-item">
-            <button className="faq-question" onClick={() => toggleAnswer(index)}>
+
+<motion.button 
+  className="faq-question"
+  whileHover={{ scale: 1.05, color: '#C4DE19' }} // Slightly scale up the button and change color on hover
+  onClick={() => toggleAnswer(index)}
+  initial={{ opacity: 0 }}
+  animate={{ opacity: 1 }}
+  transition={{ duration: 0.6, delay: index * 0.1 }}
+>
               {faq.question}
               <span className="faq-icon">{activeIndex === index ? "-" : "+"}</span>
-            </button>
+            </motion.button>
             {activeIndex === index && (
-              <div className="faq-answer">{faq.answer}</div>
+              <motion.div
+              className="faq-answer"
+              initial={{ opacity: 0, y: -20 }} // Start with the answer slightly above
+              animate={{ opacity: 1, y: 0 }} // Animate it to normal position
+              transition={{ duration: 0.3 }} // Smooth transition for the answer
+            >
+                {faq.answer}</motion.div>
             )}
           </div>
         ))}
