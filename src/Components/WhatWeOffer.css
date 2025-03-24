@@ -101,3 +101,8 @@
       display: none;
     }
   }
+  @media (max-width: 414px) {
+    .offer{
+      height: 90vh;
+    }
+  }
