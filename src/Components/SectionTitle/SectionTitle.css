@@ -20,3 +20,11 @@
     margin: 0 auto;
   }
   
+  @media (max-width: 450px) {
+    .section-title h2{
+      font-size: 2rem;
+    }
+    .section-title p{
+      font-size: 1rem;
+    }
+  }
