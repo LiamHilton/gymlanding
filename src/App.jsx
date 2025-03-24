@@ -8,6 +8,7 @@ import ClassesSection from './Components/ClassesSection';
 import WhatSetsUsApart from './Components/WhatSetsUsApart';
 import WhyChooseMe from './Components/WhyChooseMe';
 import ReviewSection from './Components/ReviewSection';
+import Pricing from './Components/Pricing';
 import FAQ from './Components/FAQ/FAQSection';
 
 
@@ -22,6 +23,7 @@ const App = () => {
       <WhatSetsUsApart/>
       <WhyChooseMe/>
       <ReviewSection/>
+      <Pricing/>
       <FAQ/>
     </div>
   )
