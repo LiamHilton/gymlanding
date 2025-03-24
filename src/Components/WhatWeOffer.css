@@ -83,7 +83,7 @@
   }
   @media (max-width: 450px) {
     .offer {
-      height: 80vh;
+      height: 100vh;
       background-image: url('../assets/offer2.jpg');
       background-size: cover;
       background-position: center;
