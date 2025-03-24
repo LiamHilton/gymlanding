@@ -67,11 +67,15 @@
   
     .benefit-box {
       justify-content: center;
-      text-align: left;
+      text-align: center;
     }
-  
+    .icon{
+        margin-bottom: 1rem;
+        font-size: 2rem;
+    }
     .image-container {
-      order: -1;
+      order: 1;
+      display: none;
     }
   }
   
