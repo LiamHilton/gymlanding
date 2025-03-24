@@ -383,7 +383,7 @@ opacity: 80%;
       
         .happy-customers-text{
         font-size: 0.75rem;
-        margin-top: 1rem;
+        margin-top: 2rem;
         margin-right: -9rem;
         opacity: 80%;
         }
@@ -393,10 +393,9 @@ opacity: 80%;
       position: absolute;
       display: grid;
       grid-template-rows: 1fr;
-      padding: 1rem;
+      padding: 0.5rem;
       gap: 1rem;
-      background-color: rgba(14, 13, 13, 0.9); /* Semi-transparent box */
-      
+      background-color: transparent;
     }
     
     .social-icon {
@@ -408,5 +407,16 @@ opacity: 80%;
     .hero-right img{
         display: none;
     }
-  
     }
+
+    @media (max-width: 414px) {
+      .social-media-box{
+        padding: 0.25rem;
+      }
+    }
+      @media (max-width: 390px) {
+        .social-media-box{
+          padding-bottom: 1rem;
+          padding-left: 1.25rem;
+        }
+      }
