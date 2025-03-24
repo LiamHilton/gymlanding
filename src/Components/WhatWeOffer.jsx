@@ -1,7 +1,7 @@
 import "./WhatWeOffer.css";
 import SectionTitle from "./SectionTitle/SectionTitle"
 import { FaDumbbell, FaHeartbeat, FaUtensils } from "react-icons/fa";
-import OfferImage from "../assets/offer.jpg"; // Replace with your image path
+import Offer1 from "../assets/offer.jpg"; // Replace with your image path
 
 const WhatWeOffer = () => {
   return (
@@ -14,7 +14,7 @@ const WhatWeOffer = () => {
       <div className="offer-grid">
         {/* Left Column - Image */}
         <div className="offer-image">
-          <img src={OfferImage} alt="Training Session" />
+          <img src={Offer1} alt="Training Session" />
         </div>
 
         {/* Middle Column - Features */}

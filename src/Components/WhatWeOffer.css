@@ -76,7 +76,7 @@
       order: -1; /* Move image to the top */ 
     }
     .offer-image img{
-      width: auto;
+      width: 400px;
       height: 300px;
       object-fit: cover;
     }
@@ -87,10 +87,7 @@
       background-image: url('../assets/offer2.jpg');
       background-size: cover;
       background-position: center;
-      
     }
-   
-   
     .offer-grid {
       grid-template-columns: 1fr;   
       border-radius: var(--border-radius-medium);
@@ -100,14 +97,7 @@
     .offer-item p{
       font-weight: 300;
     }
-    }
-    .offer-image {
-      display: none;
-      order: -1; /* Move image to the top */ 
-    }
     .offer-image img{
-      width: auto;
-      height: 200px;
-      object-fit: cover;
+      display: none;
     }
-  
+  }
