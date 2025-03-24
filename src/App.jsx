@@ -6,6 +6,7 @@ import CTA from './Components/CTA/CTA';
 import WhatWeOffer from './Components/WhatWeOffer';
 import ClassesSection from './Components/ClassesSection';
 import WhatSetsUsApart from './Components/WhatSetsUsApart';
+import WhyChooseMe from './Components/WhyChooseMe';
 
 
 const App = () => {
@@ -17,6 +18,7 @@ const App = () => {
       <WhatWeOffer/>
       <ClassesSection/>
       <WhatSetsUsApart/>
+      <WhyChooseMe/>
     </div>
   )
 }
