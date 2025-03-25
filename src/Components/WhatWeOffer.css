@@ -95,7 +95,9 @@
       padding: 1rem;
     }
     .offer-item p{
+      font-size: 1rem;
       font-weight: 300;
+      margin-top: 10px;
     }
     .offer-image img{
       display: none;
@@ -103,6 +105,11 @@
   }
   @media (max-width: 414px) {
     .offer{
-      height: 90vh;
+      height: 100vh;
+    }
+  }
+  @media (max-width: 390px) {
+    .offer-item p{
+      font-size: 0.85rem;
     }
   }
