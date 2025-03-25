@@ -13,6 +13,7 @@ import FAQ from './Components/FAQ/FAQSection';
 import CTAsub from './Components/CTASUB/CTAsub';
 import BlogSection from './Components/BlogSection';
 import ContactForm from './Components/ContactForm';
+import Footer from './Components/Footer';
 
 const App = () => {
   return (
@@ -29,6 +30,7 @@ const App = () => {
       <CTAsub/>
       <BlogSection/>
       <ContactForm/>
+      <Footer/>
 
     </div>
   )
