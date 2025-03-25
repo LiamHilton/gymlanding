@@ -11,6 +11,7 @@ import ReviewSection from './Components/ReviewSection';
 import Pricing from './Components/Pricing';
 import FAQ from './Components/FAQ/FAQSection';
 import CTAsub from './Components/CTASUB/CTAsub';
+import BlogSection from './Components/BlogSection';
 
 
 const App = () => {
@@ -26,6 +27,8 @@ const App = () => {
       <Pricing/>
       <FAQ/>
       <CTAsub/>
+      <BlogSection/>
+
     </div>
   )
 }
