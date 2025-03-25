@@ -22,7 +22,7 @@ import customer4 from '../assets/customer4.jpg';
 
 const Hero = () => {
   return (
-    <section className="hero">
+    <section id="home"  className="hero">
       <div className="hero-left">
         {/* <h1>Elevate Your Fitness</h1> */}
         <h1>ELEVATE TODAY WITH PERSONAL PLANS.</h1>

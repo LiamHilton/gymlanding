@@ -23,7 +23,7 @@ const Pricing = () => {
   ];
 
   return (
-    <section className="pricing-section">
+    <section  id="pricing"  className="pricing-section">
       <SectionTitle title="Our Training Packages" text="Choose the perfect package for your fitness journey" />
       <div className="pricing-grid">
         {pricingData.map((pkg, index) => (

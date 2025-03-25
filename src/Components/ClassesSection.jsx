@@ -23,7 +23,7 @@ const ClassesSection = () => {
           ];
       
   return (
-    <section className="classes">
+    <section id="classes" className="classes">
       <SectionTitle title="Our Classes" text="Explore our variety of fitness classes." />
       
       {/* Buttons */}

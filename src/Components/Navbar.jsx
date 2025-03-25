@@ -43,11 +43,11 @@ const Navbar = () => {
   }, [menuOpen]);
 
   const navLinks = [
-    { name: "Home", href: "#mission" },
-    { name: "About", href: "#classes" },
-    { name: "Classes", href: "#pricing" },
+    { name: "Home", href: "#home" },
+    { name: "About", href: "#about" },
+    { name: "Classes", href: "#classes" },
     { name: "Prcing", href: "#pricing" },
-    { name: "Blog", href: "#pricing" },
+    { name: "Blog", href: "#blog" },
 
 
   ];

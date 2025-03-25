@@ -1,10 +1,10 @@
 import { motion } from "framer-motion";
 import SectionTitle from "./SectionTitle/SectionTitle";
 import { FaCheckCircle, FaHeart, FaUsers, FaMedal } from "react-icons/fa";
-import "./WhyChooseMe.css"; 
+import "./AboutUs.css"; 
 import customer2 from "../assets/customer2.jpg"; // Replace with actual image path
 
-const WhyChooseMe = () => {
+const AboutUs = () => {
   const points = [
     { icon: <FaCheckCircle />, title: "Expert Coaching", text: "Years of experience in personal training, ensuring you get the best guidance." },
     { icon: <FaHeart />, title: "Holistic Health", text: "A balanced approach to fitness, including nutrition and mindset." },
@@ -29,7 +29,7 @@ const WhyChooseMe = () => {
               transition={{ delay: index * 0.2, duration: 0.8 }}
             >
               <span className="icon">{point.icon}</span>
-              <div>
+              <div className="descriptions">
                 <h3>{point.title}</h3>
                 <p>{point.text}</p>
               </div>
@@ -51,4 +51,4 @@ const WhyChooseMe = () => {
   );
 };
 
-export default WhyChooseMe;
+export default AboutUs;

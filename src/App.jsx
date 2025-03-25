@@ -6,7 +6,7 @@ import CTA from './Components/CTA/CTA';
 import WhatWeOffer from './Components/WhatWeOffer';
 import ClassesSection from './Components/ClassesSection';
 
-import WhyChooseMe from './Components/WhyChooseMe';
+import AboutUs from './Components/AboutUs';
 import ReviewSection from './Components/ReviewSection';
 import Pricing from './Components/Pricing';
 import FAQ from './Components/FAQ/FAQSection';
@@ -23,7 +23,7 @@ const App = () => {
       <CTA/>
       <WhatWeOffer/>
       <ClassesSection/>
-      <WhyChooseMe/>
+      <AboutUs/>
       <ReviewSection/>
       <Pricing/>
       <FAQ/>

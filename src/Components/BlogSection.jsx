@@ -19,7 +19,7 @@ const blogPosts = [
 
 const BlogSection = () => {
   return (
-    <section className="blog-section">
+    <section id="blog" className="blog-section">
      <SectionTitle 
         title="Latest Blog Articles" 
         text="Stay up to date with what we are doing with our weekly updates
