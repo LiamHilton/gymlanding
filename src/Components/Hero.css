@@ -45,6 +45,7 @@
     font-weight: 300;
     background-color: var(--button2-color);
     border: none;
+    text-decoration: none;
     color: white;
     padding: 0.75rem 2rem;
     font-size: 1rem;
@@ -61,6 +62,7 @@
     font-weight: 300;
     background-color: var(--button2-color);
     border: none;
+    text-decoration: none;
     color: white;
     padding: 0.75rem 2rem;
     font-size: 1rem;

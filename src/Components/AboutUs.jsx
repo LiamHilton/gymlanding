@@ -14,7 +14,7 @@ const AboutUs = () => {
 ];
 
   return (
-    <section className="why-choose-me">
+    <section id="about" className="why-choose-me">
       <SectionTitle title="Why Choose Me" text="Discover the key reasons why my training approach will elevate your fitness journey." />
       
       <div className="content">

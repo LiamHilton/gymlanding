@@ -28,8 +28,8 @@ const Hero = () => {
         <h1>ELEVATE TODAY WITH PERSONAL PLANS.</h1>
         <p>Achieve your goals with expert coaching and tailored programs designed just for you.</p>
         <div className="hero-buttons">
-          <button className="btn">Book a Session</button>
-          <button className="btn2">Explore More</button>
+          <a href="#contact" className="btn">Book a Session</a>
+          <a href="#pricing" className="btn2">Explore More</a>
         </div>
         <div className="happy-customers">
             <div className="happy-customers-container">
