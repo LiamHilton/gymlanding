@@ -24,7 +24,7 @@
   
   .benefit-box {
     display: flex;
-    align-items: center;
+    align-items: start;
     gap: 1rem;
     background: rgba(255, 255, 255, 0.1); 
     padding: 1rem;
@@ -66,16 +66,46 @@
     }
   
     .benefit-box {
-      justify-content: center;
+      justify-content: start;
       text-align: center;
     }
     .icon{
         margin-bottom: 1rem;
         font-size: 2rem;
     }
+    h3{
+      text-align: center;
+      font-size: 1.8rem;
+    }
+    p{
+      text-align: center;
+      font: 1rem;
+    }
     .image-container {
       order: 1;
       display: none;
     }
+  }
+  
+  @media (max-width: 450px) {
+    .content {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .benefit-box {
+      justify-content: start;
+      text-align: center;
+    }
+    .icon{
+        margin-bottom: 1rem;
+        font-size: 4rem;
+        z-index: -1;
+        display: none;
+    }
+    .image-container{
+      display: none;
+    }
+   
   }
   
